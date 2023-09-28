@@ -1,24 +1,18 @@
 package duke.choice;
-
 public class Customer {
      private String name;
      private String size;
-
      private Clothing[] items;
-
     public Customer(String name, int measurement) {
         this.name = name;
         setSize(measurement);
     }
-
     public void  addItems(Clothing[] someItems){
          items = someItems;
      }
-
      public Clothing[] getItems(){
          return items;
      }
-
      public double getTotalClothingCost(){
          double total = 0.0;
          for (Clothing item: items){
@@ -33,23 +27,18 @@ public class Customer {
          }
          return total;
      }
-
     public String getName() {
         return name;
     }
-
     public void setName(String name) {
         this.name = name;
     }
-
     public String getSize() {
         return size;
     }
-
     public void setSize(String size) {
         this.size = size;
     }
-
     public void setSize(int measurement){
         switch (measurement){
             case 1: case 2: case 3:
@@ -65,5 +54,4 @@ public class Customer {
                 setSize("XL");
         }
     }
-
 }
