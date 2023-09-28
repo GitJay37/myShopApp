@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="C:\JavaOracle" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" serverName="C:\JavaOracle" uploadOnCheckin="f347c2d5-0d0f-4e60-85b5-2773cf81f5ca" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="C:\JavaOracle">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="C:\JavaOracle" />
   </component>
 </project>
